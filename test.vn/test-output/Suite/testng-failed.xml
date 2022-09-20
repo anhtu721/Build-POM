@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test run with firefox browser(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.nopcommerce.demo.Testcase_01_Register">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_RegisterWithEmptyData"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.Testcase_01_Register -->
+    </classes>
+  </test> <!-- Test run with firefox browser(failed) -->
+  <test thread-count="5" name="Test run with Chrome browser(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.nopcommerce.demo.Testcase_01_Register">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_RegisterWithEmptyData"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.Testcase_01_Register -->
+    </classes>
+  </test> <!-- Test run with Chrome browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+
+	<test name="Test run with firefox browser">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			 <class name="com.nopcommerce.demo.Testcase_01_Register" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Test run with Chrome browser">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			 <class name="com.nopcommerce.demo.Testcase_01_Register" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
